@@ -1,0 +1,11 @@
+{
+  "name": "pinyin-en",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Alec Gibson",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "nodejieba": "^2.4.1"
+  }
+}
