@@ -12,6 +12,7 @@ describe('dictionary', () => {
       {chinese: '了', pinyin: 'le'},
       {chinese: '都', pinyin: 'dōu'},
       {chinese: '还', pinyin: 'hái'},
+      {chinese: '成功', pinyin: 'chénggōng'},
     ];
 
     heteronyms.forEach((heteronym) => {
