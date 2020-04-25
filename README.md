@@ -25,7 +25,7 @@ most English definitions attached as a rough proxy for how commonly used that ve
 guessed pronunciations will be marked as ambiguous:
 
 ```javascript
-const segments = await pinyinEn('我都喜欢')
+const segments = pinyinEn('我都喜欢')
 ```
 
 will return:

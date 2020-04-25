@@ -1,16 +1,7 @@
-const dictionaryFactory = require('../lib/dictionary');
+const dictionary = require('../lib/dictionary');
 const expect = require('chai').expect;
 
 describe('dictionary', () => {
-  let dictionary;
-
-  before((done) => {
-    dictionaryFactory().then((dict) => {
-      dictionary = dict;
-      done();
-    })
-  });
-
   it('contains a simple entry', () => {
     expect(dictionary['狗'][0].pinyin).to.equal('gǒu');
     expect(dictionary['狗'][0].english[0]).to.equal('dog');
